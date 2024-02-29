@@ -1,0 +1,8 @@
+#String Split and Join
+def split_and_join(a):
+    a = a.split(" ")
+    a = "-".join(a)
+    return(a)
+
+line = input()
+print(split_and_join(line))
